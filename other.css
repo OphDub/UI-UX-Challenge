@@ -1,0 +1,39 @@
+html {
+  min-height: 100%;
+  background-color: black;
+}
+
+.partners {
+  background-color: #202020;
+}
+
+.partners h2 {
+  color: white;
+  font-weight: 700;
+}
+
+.partner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+
+.partner-card {
+  background-color: black;
+  width: 200px;
+  height: 300px;
+}
+
+.partner-name {
+  color: red;
+  font-weight: 700;
+}
+
+.partner-pic {
+  border-radius: 50%;
+}
+
+.partner-info {
+  color: white;
+}

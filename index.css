@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  min-height: 100%;
 }
 
 header {
@@ -26,5 +27,29 @@ header h3 {
 }
 
 header button {
-  align-self: right;
+  position: absolute;
+  right: 10px;
+  color: white;
+  background-color: blue;
+  border: none;
+  width: 100px;
+  height: 35px;
 }
+
+.week-banner {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.week-banner h2 {
+  color: white;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.week-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
