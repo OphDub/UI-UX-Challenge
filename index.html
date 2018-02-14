@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./reset.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" type="text/css" href="./other.css" />
     <script src="main.js"></script>
   </head>
   <body>
@@ -20,16 +22,18 @@
           <li>stats</li>
         </ul>
       </nav>
-      <button>logout</button>
+      <button>log out</button>
     </header>
     <section class="week-banner">
       <h2>This Week:</h2>
       <div>
         <article>
+          <i class="fas fa-check"></i>
           <h3>mon</h3>
           <p>core</p>
         </article>
         <article>
+          <i class="fas fa-check"></i>
           <h3>tues</h3>
           <p>aerobics</p>
         </article>
@@ -47,39 +51,65 @@
         <article>
           <h3>fri</h3>
           <p class="suggested">suggested:</p>
+      <h2>THIS WEEK:</h2>
+      <div class="week-buttons">
+        <article class="week-day">
+          <h3>mon</h3>
+          <p>core</p>
+        </article>
+        <article class="week-day">
+          <i class="fas fa-check"></i>
+          <h3>tues</h3>
+          <p>aerobics</p>
+        </article>
+        <article class="week-day">
+          <h3>weds</h3>
+          <p>suggested</p>
+          <p>spar</p>
+        </article>
+        <article class="week-day">
+          <h3>thurs</h3>
+          <p>suggested</p>
+          <p>weights</p>
+        </article>
+        <article class="week-day">
+          <h3>fri</h3>
+          <p>suggested</p>
           <p>yoga</p>
         </article>
       </div>
     </section>
     <section class="partners">
-      <h2>Choose A Sparring Partner:</h2>
-      <article>
-        <img src="" alt="partner-pic">
-        <h3 class="partner-name"></h3>
-        <ul class="partner-info">
-          <li>age:</li>
-          <li>weight:</li>
-          <li>style:</li>
-        </ul>
-      </article>
-      <article>
-        <img src="" alt="partner-pic">
-        <h3 class="partner-name"></h3>
-        <ul class="partner-info">
-          <li>age:</li>
-          <li>weight:</li>
-          <li>style:</li>
-        </ul>
-      </article>
-      <article>
-        <img src="" alt="partner-pic">
-        <h3 class="partner-name"></h3>
-        <ul class="partner-info">
-          <li>age:</li>
-          <li>weight:</li>
-          <li>style:</li>
-        </ul>
-      </article>
+      <h2>CHOOSE A SPARRING PARTNER:</h2>
+      <div class="partner-container">
+        <article class="partner-card">
+          <img class="partner-pic" src="https://picsum.photos/200/100" alt="partner profile picture">
+          <h3 class="partner-name">BRUCE</h3>
+          <ul class="partner-info">
+            <li>age:</li>
+            <li>weight:</li>
+            <li>style:</li>
+          </ul>
+        </article>
+        <article class="partner-card">
+          <img class="partner-pic" src="https://picsum.photos/200/100" alt="partner profile picture">
+          <h3 class="partner-name">BRUCE</h3>
+          <ul class="partner-info">
+            <li>age:</li>
+            <li>weight:</li>
+            <li>style:</li>
+          </ul>
+        </article>
+        <article class="partner-card">
+          <img class="partner-pic" src="https://picsum.photos/200/100" alt="partner profile picture">
+          <h3 class="partner-name">BRUCE</h3>
+          <ul class="partner-info">
+            <li>age:</li>
+            <li>weight:</li>
+            <li>style:</li>
+          </ul>
+        </article>
+      </div>
     </section>
   </body>
 </html>
