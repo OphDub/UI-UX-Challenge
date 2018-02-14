@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  background-color: black;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li {
+  padding: 10px;
+}
+
+header h3 {
+  color: red;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+header button {
+  align-self: right;
+}
