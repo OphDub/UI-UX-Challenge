@@ -21,6 +21,11 @@ header ul li {
   padding: 10px;
 }
 
+i {
+  display: inline-block;
+  color: lime;
+}
+
 header h3 {
   color: red;
   font-weight: 700;
@@ -88,7 +93,7 @@ header button {
   font-size: 12px;
   margin-bottom: 20px;
   font-weight: 300;
-  margin-top: -33px;
+  margin-top: -17px;
 }
 
 .week-banner .current {
@@ -100,5 +105,9 @@ header button {
   font-weight: 300;
   font-size: 12px;
   margin-bottom: -13px;
+}
+
+.week-banner .completed {
+  margin-bottom: 55px;
 }
 
