@@ -34,6 +34,8 @@ html {
 .partner-name {
   color: red;
   font-weight: 700;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .partner-pic-bg {
@@ -59,4 +61,39 @@ html {
   color: white;
   align-self: flex-start;
   padding: 20px;
+}
+
+.fa-bars {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 720px) {
+  .partner-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner-card {
+    margin-bottom: 20px;
+  }
+
+  .week-banner {
+    overflow-x: auto;
+  }
+
+  .log-out, nav ul {
+    display: none;
+  }
+
+  .fa-bars {
+    visibility: visible;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+
+  .fa-bars:hover {
+    color: red;
+  }
 }
