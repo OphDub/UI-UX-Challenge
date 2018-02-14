@@ -16,6 +16,7 @@ header ul {
 }
 
 header ul li {
+  margin-right: 20px;
   padding: 10px;
 }
 
@@ -23,8 +24,71 @@ header h3 {
   color: red;
   font-weight: 700;
   font-size: 40px;
+  margin-right: 20px;
 }
 
 header button {
-  align-self: right;
+  position: absolute;
+  right: 5px;
+}
+
+.week-banner {
+  width: 100%;
+  height: 250px;
+  background-color: navy;
+}
+
+.week-banner h2 {
+  display: block;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  height: 40px;
+  font-weight: 700;
+}
+
+.week-banner article {
+  text-align: center;
+  background: lightgrey;
+  width: 135px;
+  min-width: 135px;
+  height: 150px;
+  border-right: 2px solid grey;
+}
+
+.week-banner div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.week-banner h3 {
+  margin: 20px 0 40px 0;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.week-banner p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.week-banner .suggested {
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  margin-top: -33px;
+}
+
+.week-banner .current {
+  background-color: red;
+  color: white;
+}
+
+.week-banner .today {
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: -13px;
 }
