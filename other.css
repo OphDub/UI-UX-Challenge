@@ -8,6 +8,10 @@ html {
 }
 
 .partners h2 {
+  margin-left: 20px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  font-size: 30px;
   color: white;
   font-weight: 700;
 }
@@ -16,7 +20,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .partner-card {
