@@ -5,6 +5,7 @@ html {
 
 .partners {
   background-color: #202020;
+  padding: 15px;
 }
 
 .partners h2 {
@@ -20,6 +21,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 40px 0px;
   min-height: 50vh;
 }
 
@@ -34,10 +36,27 @@ html {
   font-weight: 700;
 }
 
+.partner-pic-bg {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+}
+
 .partner-pic {
   border-radius: 50%;
+  width: 40%;
+  height: 40%;
+  padding: 15px 0px;
 }
 
 .partner-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner-stats {
   color: white;
+  align-self: flex-start;
+  padding: 20px;
 }
